@@ -5,5 +5,6 @@
 - VS Code Debugger
 
 - Algorithm Excercises
+    - Find Max of Array
     - Reverse Array
     - 99 Bottles (Group Activity)
