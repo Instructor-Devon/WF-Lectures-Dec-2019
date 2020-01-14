@@ -1,6 +1,8 @@
 function reverseArray(arr) {
     // returns new array in reverse order of arr
     //             i
+    // space: O(2n)
+    // time: O(n)
     // -> [2,4,6,8,10]
     // <- [10,8,6,4,2]
 
@@ -15,6 +17,8 @@ function reverseArray(arr) {
     return newArr;
 }
 function reverseArray2(arr) {
+    // space: O(n)
+    // time: O(n/2)
     // reverse arr (no new array) AKA in-place
     for(var i=0; i<arr.length/2; i++) {
         // swap array value (across the middle)
