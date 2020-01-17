@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 5px;
+}
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.red {
+    color: red;
+}
