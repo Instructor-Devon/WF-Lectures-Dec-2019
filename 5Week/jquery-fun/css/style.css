@@ -1,0 +1,38 @@
+body {
+    background-color: #3b3b3b;
+    text-align: center;
+}
+p {
+    display: inline-block;
+}
+a {
+    /* using display:block + margin instead of <br> tags! */
+    display: block;
+    margin: 10px;
+    background-color: white;
+
+}
+*:not(button) {
+    color: orange;
+}
+*{
+    font-family: 'Consolas', monospace;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+    #wrapper button {
+        width: 125px;
+        height: 35px;
+    }
+    .btn-wrapper {
+        background-color: darkcyan;
+        height: 200px;
+        overflow-y: scroll;
+        margin: 10px;
+    }
+    .cool-fx {
+        color: limegreen;
+        text-shadow: black 2px 2px 2px;
+    }
